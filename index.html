@@ -6,10 +6,11 @@
     <title>Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: -apple-system, "SF Pro Display", BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             margin: 0;
             padding: 20px;
             background-color: #f9f9f9;
+            color: #1A1A1A; /* Matching the dark text color from the image */
         }
         .container {
             max-width: 1000px;
@@ -20,14 +21,14 @@
             width: 200px;
             height: 200px;
             border-radius: 50%;
-            overflow: hidden; /* Ensures the image stays within the circular boundary */
+            overflow: hidden;
             margin: 20px auto;
-            background-color: #a3bffa; /* Placeholder background color */
+            background-color: #a3bffa;
         }
         .profile-img img {
             width: 100%;
             height: 100%;
-            object-fit: cover; /* Ensures the image covers the circular area without distortion */
+            object-fit: cover;
         }
         .about {
             text-align: left;
@@ -39,7 +40,10 @@
         nav a {
             margin: 0 10px;
             text-decoration: none;
-            color: #333;
+            color: #1A1A1A;
+        }
+        nav a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
